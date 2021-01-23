@@ -4,7 +4,7 @@ if __name__ == '__main__':
                'Dilhi': {'India','1000','Capital of India'}
     }
     for city,city_infos in cities.items():
-        print(city,' Info:')
+        print(city,' Information :')
         for city_info in city_infos:
             print("\t",city_info)
 
